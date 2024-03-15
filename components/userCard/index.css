@@ -1,0 +1,42 @@
+.userListingMainContainer {
+  padding-top: 30px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.avtarMainContainer {
+  display: flex;
+  justify-content: center;
+}
+.avtarContainer {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avtar {
+  width: 100%;
+  height: auto;
+}
+.popover {
+  background-color: black !important;
+  color: white !important;
+  width: auto !important;
+  border-radius: 5px !important;
+  padding: 8px !important;
+}
+.linksContainer {
+  display: flex;
+  align-items: center;
+}
+.linkIcons {
+  margin-right: 5px;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.button {
+  margin-top: 10px;
+}
